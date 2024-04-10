@@ -1,0 +1,64 @@
+[
+    {
+        "id": "0001",
+        "type": "choice",
+        "question": [
+            "请从四个选项中选出最适合的描述。",
+            "!test/1.jpg"
+        ],
+        "options": [
+            [
+                "Englist test"
+            ],
+            [
+                "中文测试"
+            ],
+            [
+                "yeahyeah ",
+                "!test/2.jpg"
+            ]
+        ]
+    },
+    {
+        "id": "0002",
+        "type": "rank",
+        "question": [
+            "请拖动下面几项使它们按合适的顺序排列，然后点击 submit 按钮提交。"
+        ],
+        "options": [
+            [
+                "!test/3.jpg",
+                "!test/3.jpg",
+                "!test/3.jpg",
+                "!test/3.jpg",
+                "|",
+                "!test/3.jpg",
+                "!test/3.jpg",
+                "!test/3.jpg",
+                "!test/3.jpg"
+            ],
+            [
+                "!test/4.jpg",
+                "!test/4.jpg",
+                "!test/4.jpg",
+                "!test/4.jpg",
+                "|",
+                "!test/4.jpg",
+                "!test/4.jpg",
+                "!test/4.jpg",
+                "!test/4.jpg"
+            ],
+            [
+                "!test/5.jpg",
+                "!test/5.jpg",
+                "!test/5.jpg",
+                "!test/5.jpg",
+                "|",
+                "!test/5.jpg",
+                "!test/5.jpg",
+                "!test/5.jpg",
+                "!test/5.jpg"
+            ]
+        ]
+    }
+]

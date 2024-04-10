@@ -1,0 +1,13 @@
+div.app {
+  padding: 20px 60px;
+}
+
+div.div-question {
+  margin: 20px 0;
+  font-size: 1.4em;
+}
+
+.card-body-option:hover {
+  background-color: lightyellow !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
