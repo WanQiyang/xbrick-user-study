@@ -98,7 +98,7 @@ const Options = ({ task, submit, onSubmit }) => {
         )
     } else if (task.type === 'rank') {
         const [ranked, setRanked] = useState(
-            submitted ?
+            submitted.length > 0 ?
                 submitted.map((s) => [idx2label(s)].concat(task.options[s])) :
                 task.options.map((o, i) => [idx2label(i)].concat(o))
         );
